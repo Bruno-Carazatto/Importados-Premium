@@ -95,14 +95,6 @@ Para uso real, recomenda-se adicionar:
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por Bruno Carazatto
-
-🔗 GitHub: https://github.com/Bruno-Carazatto
-
----
-
 ## ⭐ Projeto para portfólio
 
 Este projeto foi desenvolvido com foco em:
