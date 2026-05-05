@@ -646,3 +646,32 @@ a {
         100% { transform: translate(-55vw, -10vh) scale(1); }
     }
 }
+
+@media (max-width: 576px) {
+
+    /* HERO */
+    .hero .container {
+        text-align: center !important;
+    }
+
+    .hero h2,
+    .hero p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* TÍTULOS DAS SEÇÕES */
+    .section-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* AJUSTE EXTRA PARA RESPIRO */
+    .categorias,
+    .produtos {
+        text-align: center;
+    }
+
+}
