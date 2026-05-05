@@ -585,14 +585,15 @@ a {
     }
 
 .categorias-grid {
-  display: flex;
-  flex-wrap: nowrap;        /* impede quebra de linha */
-  overflow-x: auto;
-  overflow-y: hidden;       /* 🔥 trava o scroll vertical */
-  -webkit-overflow-scrolling: touch;
-
-  gap: 8px;                 /* opcional, melhora espaçamento */
-  padding-bottom: 4px;      /* evita corte visual */
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding: 6px 0 10px;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+    overscroll-behavior-y: none;
 }
 
     .categorias-grid button {
